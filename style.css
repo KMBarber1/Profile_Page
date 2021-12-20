@@ -1,0 +1,203 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+}
+
+.nav {
+    background-color: rgb(138, 38, 138);
+    color: white;
+    font-family: sans-serif;
+    height: 5em;
+}
+
+.nav div {
+    width: 30em;
+    margin-left: 3em;
+}
+
+.nav div p:nth-child(3){
+    font-weight: bold;
+}
+
+.nav button {
+    background-color: rgb(238, 40, 238);
+    font-weight: bold;
+    color: white;
+    padding: 5px 10px;
+    border: 0px;
+    margin-right: 3em;
+    border-radius: 15px;
+}
+
+.profile {
+    padding: 2em;
+}
+
+.profile-contents {
+    padding-left: 1em;
+    margin-bottom: 0.25em;
+    line-height: 30px;
+}
+
+.user-card {
+    border: 5px solid plum;
+    height: 345px;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.user-card div:first-child {
+    height: 27%;
+    width: 100%;
+    margin-bottom: 5em;
+    background-color: plum;
+}
+
+.circle {
+    height: 8em;
+    width: 8em;
+    margin-top: 2em;
+    margin-left: 2em
+}
+
+.map {
+    width: 15px;
+    height: 25px;
+}
+
+.gear {
+    width: 20px;
+    height: 20px;
+}
+
+.education {
+    border: 5px solid plum;
+    /* height: 100px; */
+    width: 100%;
+    margin-bottom: 1em;
+    margin-right: 10px;
+    line-height: 20px;
+}
+
+.education-header {
+    background-color:plum;
+    padding: 1em;
+    color:white;
+}
+
+.connections {
+    text-align: center;
+    padding-right: 3em;
+}
+
+.person-pic {
+    border: 5px solid plum;
+    margin-bottom: 1em;
+    width: 100%;
+    margin-top: 2em;
+}
+
+.person-pic-header {
+    background-color:plum;
+    color: white;
+    padding: 1em;
+}
+
+.person-pic div:first-child h2 span {
+    color: black;
+    background-color:lavender;
+    border-radius: 50%;
+    padding: 0.25em 0.5em;
+}
+
+.person-pic img {
+    border-radius: 30px;
+    width: 50px;
+    height: 50px; 
+}
+
+.friends {
+    border: 5px solid plum;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.friends-header {
+    background-color: plum;
+    color: white;
+    padding: 1em;
+
+}
+
+.friends div:first-child h2 span {
+    color: black;
+    background-color:lavender;
+    border-radius: 50%;
+    padding: 0.25em 0.5em;
+}
+
+.friends img {
+    border-radius: 30px; 
+    width: 50px;
+    height: 50px;  
+}
+
+
+.friends-footer {
+    border-top: 5px solid plum;
+    padding: 1em;
+}
+
+.request {
+    padding: 0.5em
+}
+
+.change{
+    padding: 0em;
+}
+
+.request img {
+    margin-right: 0.25em;
+    border-radius: 50%;
+    padding: 0.5em;
+}
+
+.flex {
+    display: flex;
+}
+
+.inline-flex {
+    margin-left: 10px;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.col-1 {
+    flex: 2;
+    background-color: lightgrey;
+}
+
+.col-2 {
+    flex: 1;
+    background-color: lightgrey;
+}
+
+
+
+
+
+
+
+
+
